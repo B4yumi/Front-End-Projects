@@ -1,6 +1,6 @@
-const sections = document.querySelectorAll('h2');
+var sections = document.querySelectorAll('h2');
 
-const sections_active = document.querySelectorAll('section');
+var sections_active = document.querySelectorAll('section');
 
 const navbarlist = document.getElementById('navbar__list');
 
