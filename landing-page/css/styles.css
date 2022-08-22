@@ -72,6 +72,14 @@ section {
     text-align: center;
     
 }
+.navbar__menu li {
+    padding: 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+
+}
 
 .navbar__menu a {
     padding: 10px;
@@ -85,6 +93,16 @@ section {
     padding: 10px;
     display: inline-block;
     color: rgb(0, 0, 0);
+   text-decoration: none;
+   
+
+}
+
+#navbar__list li a.highlighted  {
+    padding: 10px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: white;
    text-decoration: none;
    
 
