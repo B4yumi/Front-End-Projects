@@ -9,7 +9,7 @@ const app = express();
 const port = 8000;
 
 app.get('/',function(req,res){
-    res.send('Server is up!');
+    res.send('Server is up! for the UI please goto localhost:8000/index.html');
 });
 
 app.listen(port,function(){
